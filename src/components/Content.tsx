@@ -103,7 +103,7 @@ function Content() {
                     </div>
 
                     <div>
-                        <InputLabel id="interval">間隔</InputLabel>
+                        <InputLabel id="interval">間隔（分）</InputLabel>
                         <Select labelId="interval" onChange={(e) => setInterval(e.target.value as number)}
                                 value={interval}>
                             {intervalCandidates.map((i) => (
